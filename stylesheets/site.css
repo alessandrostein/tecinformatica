@@ -190,8 +190,7 @@ ul li {
   }
 
   ul li {
-    /*display: inline;*/
-    line-height: 1.5;
+    line-height: 2.5;
   }
 
 }
