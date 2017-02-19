@@ -2,16 +2,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgb(29,74,137)), to(rgb(120,164,199)));
-  background-image: -webkit-linear-gradient(left top, rgb(29,74,137), rgb(120,164,199));
-  background-image: -moz-linear-gradient(left top, rgb(29,74,137), rgb(120,164,199));
-  background-image: -o-linear-gradient(left top, rgb(29,74,137), rgb(120,164,199));
-  background-image: -ms-linear-gradient(left top, rgb(29,74,137), rgb(120,164,199));
-  background-image: linear-gradient(left top, rgb(29,74,137), rgb(120,164,199));
+  /*background: #666;*/
 }
 
 a {
   text-decoration: none;
+  color: #666;
+  font-size: 20px;
 }
 
 h1, h2, h3 {
@@ -20,11 +17,19 @@ h1, h2, h3 {
 
 ul {
   list-style: none;
-  padding-left: 0px
+  padding-left: 0px;
+  margin: 0 auto;
+  width: 550px;
 }
 
 ul li {
-  display: inline;
+  /*display: inline;*/
+  line-height: 3.5;
+}
+
+.icon {
+  width: 60px;
+  vertical-align: middle;
 }
 
 .top-nav {
@@ -48,7 +53,7 @@ ul li {
 
 .page-content {
   padding-top: 100px;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
 }
 
 .box {
@@ -66,7 +71,7 @@ ul li {
   width: 100%;
   box-sizing: border-box;
   padding: 10px 20px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .profile-picture {
@@ -173,6 +178,15 @@ ul li {
     width: 100px;
     height: 100px;
     margin-top: -50px;
+  }
+
+  .icon {
+    width: 30px;
+    vertical-align: middle;
+  }
+
+  a {
+    font-size: 12px;
   }
 
 }
