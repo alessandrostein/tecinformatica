@@ -189,6 +189,11 @@ ul li {
     font-size: 12px;
   }
 
+  ul li {
+    /*display: inline;*/
+    line-height: 1.5;
+  }
+
 }
 
 @media print, screen and (max-width: 960px) {
